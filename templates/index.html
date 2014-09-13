@@ -1,5 +1,20 @@
 {% extends 'base.html' %}
 
+{% block head_css %}
+    <link href="{{ SITEURL }}/skulpt/codemirror.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/skulpt/solarized.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/css/cuprum_bolditalic/cuprum.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/css/pynbo-index.css" rel="stylesheet">
+{% endblock %}
+
+{% block head_js %}
+    <script src="{{ SITEURL }}/skulpt/codemirrorepl.js" type="text/javascript"></script>
+    <script src="{{ SITEURL }}/skulpt/repl.js" type="text/javascript"></script>
+    <script src="{{ SITEURL }}/skulpt/python.js" type="text/javascript"></script>
+    <script src="{{ SITEURL }}/skulpt/skulpt.min.js" type="text/javascript"></script>
+    <script src="{{ SITEURL }}/skulpt/skulpt-stdlib.js" type="text/javascript"></script>
+{% endblock %}
+
 {% block content %}
 <div class="pure-g-r" id="layout">
     {% include 'sidebar.html' %}

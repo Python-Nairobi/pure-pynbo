@@ -17,7 +17,7 @@ See it all in action here:- <http://blog.pynbo.or.ke>. Give the interpreter a go
 
 ## CONTRIB
 
-1. [Fork](Python-Nairobi/pure-pynbo#fork-destination-box)
+1. [Fork](https://github.com/Python-Nairobi/pure-pynbo#fork-destination-box)
 2. H4x H4x H4x Commit Push
 3. Make a pull request against Python-Nairobi/pure-pynbo:master
 4. We merge

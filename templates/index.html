@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
 
 {% block head_css %}
-    <link href="{{ SITEURL }}/theme/css/codemirror.css" rel="stylesheet">
-    <link href="{{ SITEURL }}/theme/css/solarized.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/codemirror.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/solarized.css">
 {% endblock %}
 
 {% block head_js %}
     <script src="{{ SITEURL }}/theme/js/codemirror/codemirrorepl.js" type="text/javascript"></script>
     <script src="{{ SITEURL }}/theme/js/codemirror/repl.js" type="text/javascript"></script>
-    <script src="{{ SITEURL }}/theme/js/skulpt-dist/python.js" type="text/javascript"></script>
+    <script src="{{ SITEURL }}/theme/js/codemirror/python.js" type="text/javascript"></script>
     <script src="{{ SITEURL }}/theme/js/skulpt-dist/skulpt.min.js" type="text/javascript"></script>
     <script src="{{ SITEURL }}/theme/js/skulpt-dist/skulpt-stdlib.js" type="text/javascript"></script>
 {% endblock %}
@@ -35,7 +35,7 @@
                 {% for article in articles_page.object_list %}
                     {% include 'post.html' %}
                     {% if MATH is defined and not MATH['auto_insert'] %}
-			{% if page and page.mathjax or article and article.mathjax %}
+                        {% if page and page.mathjax or article and article.mathjax %}
                             {% set mathjax = True %}
                         {% endif %}
                     {% endif %}

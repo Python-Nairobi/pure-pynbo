@@ -1,0 +1,3 @@
+[submodule "static/js/skulpt-dist"]
+	path = static/js/skulpt-dist
+	url = git@github.com:Python-Nairobi/skulpt-dist.git

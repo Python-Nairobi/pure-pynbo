@@ -1,41 +1,25 @@
-Pure
+Pure-PyNBO
 ====
 
-[Collaborative blogging theme](http://purepelican.com) based on [Purecss](http:purecss.io) for [Pelican](http://docs.getpelican.com/) blogs.
-Theme is responsive.
+A slightly modified [Pure theme](https://github.com/PurePelicanTheme/pure) based on [Purecss](http:purecss.io) for [Pelican](http://docs.getpelican.com/) blawgs.
 
-## PELICANCONF.PY
+It features a fully fledged in-browser implementation of python complete with a REPL/interactive shell courtesy of [Skulpt](http://www.skulpt.org/) and [CodeMirror](https://codemirror.net/) wrapped by [CodeMirrorREPL](https://github.com/aaditmshah/codemirror-repl).
 
-* `COVER_IMG_URL` - Set the sidebar image for homepage.
-* `PROFILE_IMAGE_URL` - Set the image/logo for the top circle cutout on sidebar.
-* `TAGLINE` - Used for the page titles and some meta tags.
-* `DISQUS_SITENAME` - Set this to enable disqus comments in articles.
-* `GOOGLE_ANALYTICS` - Set the Google Analytics code (eg. "UA-000000-00")
-* `SOCIAL` - Set some social links in the sidebar. The format should be like this:
-
-    ```python
-    SOCIAL = (
-        ('github', 'https://github.com/example/'),
-        ('twitter-square', 'https://twitter.com/example'),
-    )
-    ```
-    where the first value of the tuple is the icon name from http://fontawesome.io/icons/ after stripping `fa-` (eg. `fa-github` will be `github`)
-
-
-## Article metadata:
-* `about_author` - short summary about author displayed under gravatar
-* `email` - display author's gravar on article. See [gravatar pelican plugin](https://github.com/getpelican/pelican-plugins/tree/master/gravatar)
+See it all in action here:- <http://blog.pynbo.or.ke>. Give the interpreter a go. Report any fails.
 
 ## PREVIEW
 
-![Pure preview](http://i.imgur.com/lqCJVrF.png)
+![Index](img/index.png)
 
-![Pure preview](http://i.imgur.com/eCUsyGk.png)
+![Responsive](img/responsive.png)
 
-![Pure preview](http://i.imgur.com/RkYxMIl.png)
+![Article](img/article.png)
 
-See it live at [testpy.org](http://testpy.org/)
+## CONTRIB
 
-## Aditional features
-* [FitVids](https://github.com/davatron5000/FitVids.js) jQuery plugin for fluid width video embeds.
-* [Math Render Ability](https://github.com/getpelican/pelican-plugins/tree/master/render_math) *render_math* plugin for using MathJax to render both MathML and LaTex.
+1 - [Fork](Python-Nairobi/pure-pynbo#fork-destination-box)
+2 - H4x H4x H4x Commit Push
+3 - Make a pull request against Python-Nairobi/pure-pynbo:master
+4 - We merge
+5 - ????
+6 - PROFIT!!!!
